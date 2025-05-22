@@ -1,3 +1,12 @@
+<?php
+
+function addTwoNumbers($a, $b)
+{
+    return $a + $b;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +17,10 @@
 </head>
 
 <body>
-    <p>First commit</p>
+    <?php
+    $total = addTwoNumbers(200, 4000);
+    echo "Total value is $total";
+    ?>
 </body>
 
 </html>
